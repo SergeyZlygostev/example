@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bezsahara - полезные десерты</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180848078-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-180848078-1');
+</script>
+
+	<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(68496289, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/68496289" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+</head>
+<body class="body">
+	
+	<div class="wrapper"></div>
+
+	<header class="header">
+		<div class="container-1 header-inner">
+			<a class="logo" href="index.html"></a>
+			<div class="contacts-inner">
+				<div class="header__contacts">
+					<p>г. Самара</p>
+					<a class="telephone-number" href="tel:+79171249490">+7-917-124-9490</a>
+				</div>
+			</div>
+			<nav class="header__menu">
+				<ul id="menu" class="menu">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="assortment.html">Ассортимент</a></li>
+					<li><a href="#forwho">Для кого</a></li>
+					<li><a href="#advantages">Преимущества</a></li>
+					<li><a href="#hits">Хиты продаж</a></li>
+					<li><a href="#reviews">Отзывы</a></li>
+					<li><a href="forbuyers.html">Покупателям</a></li>
+				</ul>
+			</nav>
+				<div id="burger" class="burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+
+		</div>
+	</header>
+
+	<div class="slider">
+		<div class="slide">
+			<img src="images/slide1.jpg" alt="Первый слайд" width="1400">
+			<div class="slideText"><p>Десерты Bezsahara — прекрасная альтернатива традиционным сладостям, которые содержат большое количество жиров и углеводов.</p></div>
+		</div>
+		<div class="slide">
+			<img src="images/slide2.jpg" alt="Второй слайд" width="1400">
+			<div class="slideText"><p>Наш ассортимент богат не только тортами, но также диетическими десертами, капкейками и пирожными.</p></div>
+		</div>
+		<div class="slide">
+			<img src="images/slide3.jpg" alt="Третий слайд" width="1400">
+			<div class="slideText"><p>Наши торты станут настоящей находкой для людей, следящих за питанием.</p></div>
+		</div>
+
+		<a class="prev" onclick="minusSlide()"><p>&#10094;</p></a>
+    <a class="next" onclick="plusSlide()"><p>&#10095;</p></a>
+
+		<div class="slider-dots">
+		  <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+		  <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+		  <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+		</div>
+	</div>
+
+	<main>
+		<div class="container-2">
+
+			<section class="assortment">
+				<h2>Ассортимент</h2>
+				<div class="assortment__items">
+					<div class="assortment__item">
+ 						<img src="images/redVelvet.jpeg" alt="Низкокалорийные">
+						<p>Низкокалорийные торты</p>
+						<a class="btn-detailed" href="assortment.html#calories">Выбрать</a>
+ 					</div>
+					<div class="assortment__item">
+ 						<img src="images/noneMilkPear-1.jpeg" alt="Особые">
+						<p>Особые торты для вегетарианев, аллергиков</p>
+						<a class="btn-detailed" href="assortment.html#special">Выбрать</a>
+ 					</div>
+					<div class="assortment__item">
+ 						<img src="images/pavlova-1.jpg" alt="Десерты">
+						<p>Низкокалорийные десерты</p>
+						<a class="btn-detailed" href="assortment.html#desserts">Выбрать</a>
+ 					</div>
+				</div>
+			</section>
+
+			<section class="forwho anchor" id="forwho">
+				<h2>Для кого</h2>
+				<div id="forwho1" class="forwho__items">
+					<div class="forwho__img image-1"></div>
+					<div  id="parag1" class="forwho__item first-item">
+						<p>В ассортименте тортов представлена категория тортов для людей, имеющих ограничения в питании (без яиц, лактозы  или глютена)- аллергиков, диабетиков.</p>
+					</div>
+				</div>
+				<div id="forwho2" class="forwho__items">
+					<div class="forwho__img image-2"></div>
+					<div id="parag2" class="forwho__item second-item">
+						<p>Наши торты идеально подходят для приверженцев правильного питания, здорового образа жизни и тех, кто просто следит за фигурой.</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="advantages" id="advantages">
+				<h2>Преимущества</h2>
+				<div class="advantages__items">
+					<div class="advantages__item cake">
+						<p>Наши торты не уступают по вкусу классическим, но имеют более качественный и полезный состав</p>
+					</div>
+					<div class="advantages__item no-sugar">
+						<p>Калорийность тортов Bezsahara в 2,5 раза ниже классических</p>
+					</div>
+					<div class="advantages__item gift">
+						<p>Если у ваших  близких  имеются ограничения в питании,  Вы сможете порадовать их сладким подарком</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="hits" id="hits">
+				<h2>Хиты продаж</h2>
+				<div class="hits__items">
+					<a href="assortment/snikers.html">
+						<div class="hits__item">
+							<img src="images/snikers-3.jpeg" alt="" width="380" height="325">
+							<p>Сникерс</p>
+						</div>
+					</a>
+					<a href="assortment/honey-cake.html">
+						<div class="hits__item">
+							<img src="images/honeyCake-1.jpeg" alt="" width="380" height="325">
+							<p>Медовик</p>
+						</div>
+					</a>
+					<a href="assortment/carrot-cake.html">
+						<div class="hits__item">
+							<img src="images/carrotCake-2.jpeg" alt="" width="380" height="325">
+							<p>Морковный</p>
+						</div>
+					</a>
+					<div class="lt-btn" id="hits__lt-btn"></div>
+					<div class="rt-btn" id="hits__rt-btn"></div>
+				</div>
+			</section>
+
+			<section class="reviews" id="reviews">
+				<h2>Отзывы</h2>
+				<div class="reviews__items">
+					<div class="reviews__item item-1"></div>
+					<div class="reviews__item item-2"></div>
+					<div class="reviews__item item-3"></div>
+					<div class="reviews__item item-4"></div>
+					<div class="reviews__item item-5"></div>
+					<div class="reviews__item item-6"></div>
+					<div class="reviews__item item-7"></div>
+					<div class="reviews__item item-8"></div>
+					<div class="reviews__item item-9"></div>
+					<div class="lt-btn" id="reviews__lt-btn"></div>
+					<div class="rt-btn" id="reviews__rt-btn"></div>
+				</div>
+			</section>
+		</div>
+	</main>
+
+	<footer class="footer">
+		<div class="container-1 footer-inner">
+			<a class="logo" href="index.html"></a>
+			<div class="footer__contacts">
+				<p>г. Самара</p>
+				<a class="telephone-number" href="tel:+79171249490">+7-917-124-9490</a>
+			</div>
+			<div class="social">
+				<p>Мы в социальных сетях</p>
+				<a class="soccial-btn inst-btn" href="https://www.instagram.com/bezsahara_ru" target="_blank"></a>
+				<a class="soccial-btn vk-btn" href="#" target="_blank"></a>
+			</div>
+			<div class="footer__menu">
+				<div class="column-main">
+					<a href="index.html">Главная</a>
+				</div>
+				<div class="column-assortment">
+					<a href="assortment.html">Ассортимент</a>
+					<a href="assortment.html#calories">Низкокалорийные торты</a>
+					<a href="assortment.html#special">Особые торты для<br>вегетарианцев и аллергиков</a>
+					<a href="assortment.html#desserts">Десерты</a>
+				</div>
+				<div class="column-forbuyers">
+					<a href="forbuyers.html">Покупателям</a>
+					<a href="forbuyers.html#delivery">Доставка</a>
+					<a href="forbuyers.html#pay">Оплата</a>
+					<a href="forbuyers.html#rules">Правила заказа</a>
+					<a href="/privacy/privacy.html">Политика конфиденциальности</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<a class="top-btn"></a>
+
+	<script src="js/animate-main.js"></script>
+	<script src="js/script-main.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
